@@ -25,7 +25,7 @@ def extract_token_from_response(data, region):
 def get_jwt_token_sync(region):
     global jwt_token
     endpoints = {
-        "IND": "https://jwtgenchx.vercel.app/token?uid=3976277520&password=3C07CA0CF3C22DB4DB5A00A8C75E3FED7869FB11CED0ADFB5C8DE7E92652B704",
+        "IND": "https://jwtgenchx.vercel.app/token?uid=4182972647&password=C4_RIZAKYI_BNGX_VIP_BZH08REC",
         "BR": "https://projects-fox-x-get-jwt.vercel.app/get?uid=3787481313&password=JlOivPeosauV0l9SG6gwK39lH3x2kJkO",
         "US": "https://tokenalljwt.onrender.com/api/oauth_guest?uid=3787481313&password=JlOivPeosauV0l9SG6gwK39lH3x2kJkO",
         "SAC": "https://tokenalljwt.onrender.com/api/oauth_guest?uid=3787481313&password=JlOivPeosauV0l9SG6gwK39lH3x2kJkO",
@@ -62,7 +62,7 @@ def jwt_token_updater(region):
         time.sleep(300)
 def get_api_endpoint(region):
     endpoints = {
-        "IND": "https://client.ind.freefiremobile.com/GetPlayerPersonalShow",
+        "IND": "https://clientbp.ggblueshark.com/GetPlayerPersonalShow",
         "BR": "https://client.us.freefiremobile.com/GetPlayerPersonalShow",
         "US": "https://client.us.freefiremobile.com/GetPlayerPersonalShow",
         "SAC": "https://client.us.freefiremobile.com/GetPlayerPersonalShow",
@@ -142,4 +142,4 @@ def favicon():
     return '', 404
 if __name__ == "__main__":
     ensure_jwt_token_sync("default")
-    app.run(host="0.0.0.0", port=5552)
+    app.run(host="0.0.0.0", port=14214)
