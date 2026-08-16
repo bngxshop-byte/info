@@ -47,7 +47,7 @@ async def json_to_proto(json_data: str, proto_message: Message) -> bytes:
 
 def get_account_credentials(region: str) -> str:
     # دائمًا region = ME
-    return "uid=4713330744&password=BNGX_SRCNFPRMW"
+    return "uid=6687104619&password=F7B7EB14841367049BECEBF8C89963738DF8CDC9D6A78CDBCC458ADD566A4251"
 
 # === Token Generation ===
 async def get_access_token(account: str):
